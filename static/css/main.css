@@ -1,0 +1,110 @@
+.hidden {
+    display: none !important;
+}
+
+.navbar { 
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 300px;
+    margin: 0; 
+    display: block;
+    object-fit: cover;
+}
+
+.box-elem {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 0 0 4px 4px; 
+    padding: 15px;
+    margin-top: 0;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+#form-wrapper {
+    padding: 20px;
+}
+
+/* Headings */
+h3, h4 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/* Section Spacing */
+#user-info, #shipping-info {
+    margin-bottom: 20px;
+}
+
+/* Cart Elements */
+.cart-row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.cart-row > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-img {
+    width: 100px;
+    height: auto;
+}
+
+/* Quantity Controls */
+.quantity-controls {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.quantity-controls span {
+    cursor: pointer;
+    user-select: none;
+}
+
+.quantity-controls span:hover {
+    color: #007bff;
+}
+
+/* Buttons */
+#form-button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    width: 100%;
+}
+
+/* Horizontal Lines */
+hr {
+    margin: 15px 0;
+    border-top: 1px solid #ececec;
+}
+
+/* Return to Cart Link */
+.btn-outline-dark {
+    margin-bottom: 15px;
+    display: inline-block;
+}
